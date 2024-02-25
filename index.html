@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="desgin.css">
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+    <script src="https://kit.fontawesome.com/a735211ca5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <img src="photo.jpg" alt=""> -->
+
+    <div id="header">
+
+        <div class="container">
+
+            <nav>
+                <img src="portfolio.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contect">Contect</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fullstack Developer</p>
+                <h1>Hi,I'm <samp>Amit Yadav</samp><br><p class="typing">From Gprakhpur</p></h1>
+
+            </div>
+
+        </div>
+        <!-- ---------About--------------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photo1.JPG">
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>
+                            I'm Amit Yadav and I'm a MCA student from <samp>Galgotias University</samp> from Greater
+                            Noida.
+                            I do not just rely on collage,I keep trying to do something new by myself so that my skills
+                            improve so that i can do better, and I think this should be the most important key quality
+                            because “Nothing great in the world has ever been accomplished without passion". And i like
+                            Self
+                            teaching and love of learnin.and also i'm Work On Multiple Technologies</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('exprience')">Experience</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span> Programming Language</span><br>C, Java, JavaScript</li>
+                                <li><span>Database</span><br>MySQL, SQL, Oracle</li>
+                                <li><span>Web Technology</span><br>HTML, CSS, Bootstrap,React.js, Node.js, Express.js
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Pursuing</span><br>MCA from Galgotias University</li>
+                                <li><span>2022</span><br>BCA from MCRP University</li>
+                                <li><span>2019</span><br>12th from Pradeep Intermediate College</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="tab-contents" id="exprience">
+                            <ul>
+                                <li><span>Fresher</span><br></li>
+
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ----------Services------------------ -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title1"> My Services</h1>
+                <div class="services-list">
+                    
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>The desgin of websites that are display on tha internet. A web on the appearance, layout, and
+                            in
+                            some cases, content of a websites. </p>
+                        <a href="#">lern more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-user-secret"></i>
+                        <h2>Cybersecurity</h2>
+                        <p>Cybersecurity refers to any technology, measure or practice for preventing cyberattacks or
+                            mitigating their impact.</p>
+                        <a href="#">lern more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-cube"></i>
+                        <h2>Data Entry</h2>
+                        <p>The data of data or information into a computer using input devices,attention to
+                            detail,efficient
+                            verbal communication, and the ability to sort review and correct data as needed.</p> 
+                            <a href="#">lern more</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- ---------Portfolio-------------------- -->
+
+        <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png ">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you are the talented people around the world.
+                            Download it from play store. </p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png ">
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png ">
+                </div>
+            </div>
+        </div>
+
+    </div> -->
+        <!-- -----------Contect Me--------------->
+
+        <div id="contect">
+            <div class="container">
+                <div class="row">
+                    <div class="contect-left">
+                        <h1 class="sub-title">Contect Me</h1>
+
+                        <p><i class="fa fa-paper-plane" aria-hidden="true"></i>amityadav52007@gmail.com</p>
+                        <p><i class="fa fa-phone-square" aria-hidden="true"></i>8931058953</p>
+
+                        <div class="social-icon">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter-square"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                        </div>
+                        <p>
+                            <a href="Resume.pdf" class="btn btn2">Download CV</a>
+                        </p>
+                    </div>
+
+                    <div class="contect-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="3" placeholder="Message"></textarea>
+                            <button type="button" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2024 All rights reserved <i class="fas fa-heart"></i> This template is made with by Amit
+                Yadav
+            </p>
+        </div>
+    </div>
+</body>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+
+<script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwxmZVOZNFovAsVuGfV4qcVvXblXlDOklDtb9pgvNDn205DOn20FgtUXwTaQ-urnOj6/exec'
+    
+    const form = document.forms["submit-to-google-sheet"]
+    const msg = document.getElementById("#msg")
+
+    form.addEventListener("submit", e => {      
+
+        e.preventDefault()
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message send Successfully";
+                setTimeout(function(){
+                    msg.innerHTML = " "
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+
+    })
+</script>
+
+</html>
