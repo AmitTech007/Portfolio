@@ -1,5 +1,5 @@
 # demo-project
-This is Demo for Git &amp; Github class.
+This is my portfolio website. 
 
 # Getting Started
 Own portfolio website.
